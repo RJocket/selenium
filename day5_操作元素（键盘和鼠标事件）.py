@@ -32,8 +32,7 @@ driver.get("http://www.baidu.cn")
 above = driver.find_element_by_link_text("设置")
 # 鼠标悬停
 ActionChains(driver).move_to_element(above).perform()
-dri
-ver.quit
+driver.quit
 
 # move_to_element():鼠标悬停
 # perform:执行ActionChains类中存储的行为
